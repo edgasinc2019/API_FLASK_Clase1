@@ -1,7 +1,7 @@
 import requests
 
 user_agent = {'User-agent': 'Mozilla/5.0'}
-symbol = "DIS" # Ticker de Disney
+symbol = "SAN.MC" # Ticker de Disney
 url = f"https://query2.finance.yahoo.com/v10/finance/quoteSummary/{symbol}?modules=price%2CsummaryDetail%2CpageViews%2CfinancialsTemplate"
 r = requests.get(url, headers=user_agent)
 
