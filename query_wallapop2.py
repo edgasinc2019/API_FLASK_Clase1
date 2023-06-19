@@ -22,7 +22,7 @@ def get_wallapop(search_text: str):
 
     results = []
     for r in search_results:
-        articulo - {
+        articulo = {
             "price": r["content"]["price"],
             "title": r["content"]["title"],
             "storytelling": r["content"]["storytelling"]
